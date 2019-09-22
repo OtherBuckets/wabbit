@@ -21,8 +21,9 @@ yarn electron:build
 
 ### Run your tests
 ```
-yarn run test
+yarn run test:unit
 ```
+This project uses Jest for unit tests, which you can read about [here](https://jestjs.io/).
 
 ### Lints and fixes files
 ```
