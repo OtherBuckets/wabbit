@@ -8,6 +8,7 @@ jobs:
   include:
     - stage: Code Quality
       script: yarn lint
+    - stage: Tests
       script: yarn test:unit
     - stage: Build
       script: yarn electron:build
