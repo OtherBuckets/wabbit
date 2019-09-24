@@ -1,0 +1,13 @@
+os: osx
+language: node_js
+branches:
+  only:
+    - master
+    - feature/onboarding
+jobs:
+  include:
+    - stage: Code Quality
+      script: yarn lint
+      script: yarn test:unit
+    - stage: Build
+      script: yarn electron:build
