@@ -11,6 +11,7 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',
@@ -21,7 +22,7 @@ module.exports = {
         '**/__tests__/*.{j,t}s?(x)',
       ],
       env: {
-        mocha: true,
+        jest: true,
       },
     },
   ],

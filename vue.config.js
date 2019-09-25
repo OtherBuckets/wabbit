@@ -2,8 +2,8 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        data: `@import "~@/scss/main";`,
-      }
-    }
+        data: '@import "~@/scss/main";',
+      },
+    },
   },
 };

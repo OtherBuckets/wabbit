@@ -1,0 +1,19 @@
+@import 'variables';
+
+button.btn-large {
+  background-color: $brand-color;
+  border-color: $brand-color;
+  border-radius: 0.5em;
+  color: $brand-accent-color;
+  cursor: pointer;
+  font: 1em/1.5em 'Open Sans', sans-serif;
+  min-width: 140px;
+  padding: 0.5em;
+
+  &[disabled] {
+    background-color: transparent;
+    border-color: $brand-color;
+    color: $text-color-light;
+    cursor: not-allowed;
+  }
+}

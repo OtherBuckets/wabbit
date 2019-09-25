@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Onboarding.vue should render welcome view 1`] = `
+<div id="container" class="fill-parent">
+  <div id="welcome">
+    <h1 class="fade-in-from-above">
+      Welcome to Wabbit. We're happy you're here.
+    </h1> <button type="button" class="btn-large btn-light fade-in-from-below">
+      Let's Get Started
+    </button>
+  </div>
+  <div id="page-indicators">
+    <div class="current-page"></div>
+  </div>
+</div>
+`;
