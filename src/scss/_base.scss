@@ -5,6 +5,7 @@ body {
 
 body {
   font: 16px/22px 'Open Sans', 'sans-serif';
+  font-weight: 300;
   height: 100%;
   margin: 0;
 }
@@ -18,4 +19,10 @@ h1 {
 .fill-parent {
   height: 100%;
   width: 100%;
+}
+
+::-webkit-input-placeholder {
+  color: #adadad;
+  font: 16px 'Open Sans', 'sans-serif';
+  font-weight: 300;
 }

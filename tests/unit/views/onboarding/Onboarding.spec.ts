@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import Onboarding from '@/views/Onbording.vue';
+import Onboarding from '@/views/onboarding/Onbording.vue';
 
 describe('Onboarding.vue', () => {
   it('should render welcome view', () => {
